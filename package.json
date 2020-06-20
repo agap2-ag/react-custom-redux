@@ -1,0 +1,73 @@
+{
+  "name": "react-custom-redux",
+  "description": "A simple custom redux implementation on a side-by-side chat",
+  "version": "1.0.0",
+  "author": "agap2-ag",
+  "keywords": [
+    "react",
+    "javascript",
+    "redux",
+    "custom",
+    "semantic-ui",
+    "chat",
+    "messages"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-json-view": "^1.19.1",
+    "react-scripts": "^3.4.1",
+    "redux": "^4.0.5",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0",
+    "htmlhint": "^0.14.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5",
+    "prettier-standard": "^16.3.0",
+    "standard": "^14.3.4",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "clean": "rm -rf build",
+    "clean:win": "rd /s/q build",
+    "deploy": "run-s clean build deploy:gh",
+    "deploy:gh": "gh-pages -d build",
+    "deploy:win": "run-s clean:win build deploy:gh",
+    "lint": "run-p lint:*",
+    "lint:html": "htmlhint \"src/\" --config .htmlhintrc",
+    "lint:scss": "stylelint \"src/*.scss\" \"src/**/*.scss\" --syntax scss",
+    "lint:js": "standard \"src/*.js\" \"src/**/*.js\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
