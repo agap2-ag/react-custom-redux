@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/static/js/main.78101ee6.chunk.js",
-    "main.js.map": "/static/js/main.78101ee6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ac4b2b35.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ac4b2b35.js.map",
-    "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
-    "static/js/2.813ee9c5.chunk.js": "/static/js/2.813ee9c5.chunk.js",
-    "static/js/2.813ee9c5.chunk.js.map": "/static/js/2.813ee9c5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4bed1c0e01ed07de7a52330d877d1828.js": "/precache-manifest.4bed1c0e01ed07de7a52330d877d1828.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
-    "static/js/2.813ee9c5.chunk.js.LICENSE.txt": "/static/js/2.813ee9c5.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
+    "main.js": "/react-custom-redux/static/js/main.75a94c7a.chunk.js",
+    "main.js.map": "/react-custom-redux/static/js/main.75a94c7a.chunk.js.map",
+    "runtime-main.js": "/react-custom-redux/static/js/runtime-main.5de9af6f.js",
+    "runtime-main.js.map": "/react-custom-redux/static/js/runtime-main.5de9af6f.js.map",
+    "static/css/2.69c3537d.chunk.css": "/react-custom-redux/static/css/2.69c3537d.chunk.css",
+    "static/js/2.813ee9c5.chunk.js": "/react-custom-redux/static/js/2.813ee9c5.chunk.js",
+    "static/js/2.813ee9c5.chunk.js.map": "/react-custom-redux/static/js/2.813ee9c5.chunk.js.map",
+    "index.html": "/react-custom-redux/index.html",
+    "precache-manifest.1d416a3730232d4e7be5c4052dc23b92.js": "/react-custom-redux/precache-manifest.1d416a3730232d4e7be5c4052dc23b92.js",
+    "service-worker.js": "/react-custom-redux/service-worker.js",
+    "static/css/2.69c3537d.chunk.css.map": "/react-custom-redux/static/css/2.69c3537d.chunk.css.map",
+    "static/js/2.813ee9c5.chunk.js.LICENSE.txt": "/react-custom-redux/static/js/2.813ee9c5.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/react-custom-redux/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac4b2b35.js",
-    "static/css/2.7df41cd5.chunk.css",
+    "static/js/runtime-main.5de9af6f.js",
+    "static/css/2.69c3537d.chunk.css",
     "static/js/2.813ee9c5.chunk.js",
-    "static/js/main.78101ee6.chunk.js"
+    "static/js/main.75a94c7a.chunk.js"
   ]
 }
