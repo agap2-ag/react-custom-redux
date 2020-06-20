@@ -1,6 +1,7 @@
 {
   "name": "react-custom-redux",
   "description": "A simple custom redux implementation on a side-by-side chat",
+  "homepage": "https://agap2-ag.github.io/react-custom-redux/",
   "version": "1.0.0",
   "author": "agap2-ag",
   "keywords": [
